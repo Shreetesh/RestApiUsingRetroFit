@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="56dp">
+    <TextView
+        android:id="@+id/UserListText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User List View!" />
+    <!--Name Label-->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/fullName_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Job Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/job_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Job" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Created At Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/createdAt_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Created At" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Create/Submit Button -->
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:text="Create " />
+
+    <!--User List Button-->
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_userList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="34dp"
+        android:padding="24dp"
+        android:text="User List " />
+
+</LinearLayout>
